@@ -1,0 +1,4 @@
+one="Hello the"
+two="world"
+three="is beautiful"
+print(one, two , three)
