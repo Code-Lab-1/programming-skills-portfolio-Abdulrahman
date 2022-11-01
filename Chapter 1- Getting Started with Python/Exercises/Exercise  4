@@ -1,0 +1,4 @@
+one="Life is"
+two="too short."
+three="So enjoy it!"
+print(one, two , three)
