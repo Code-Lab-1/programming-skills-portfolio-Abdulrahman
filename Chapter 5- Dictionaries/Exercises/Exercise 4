@@ -1,0 +1,12 @@
+rivers={"Indus":"India","Amazon":"Brazil","Danube":"Romania","Euphrates":"Iraq"}
+
+for a,b in rivers.items():
+    print(a+" : "+b)
+    
+print("\nRivers in the dictionary:")
+for a in rivers.keys():
+    print(a)
+    
+print("\nCountries in the dictionary:")
+for a in rivers.values():
+    print(a)
