@@ -1,6 +1,6 @@
 def make_shirt(size,txt):
     print("\nI'm going to make a "+size+" t-shirt.")
-    print('It will say,"'+txt+'"')
+    print('The t-shirt will say,"'+txt+'"')
 
 make_shirt("extra large","Life is short!")
 make_shirt(txt="Don't Give Up.",size="small")
