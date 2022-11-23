@@ -1,0 +1,5 @@
+def display_message():
+    print("Currently learning how functions work in python.")
+    
+
+display_message()
