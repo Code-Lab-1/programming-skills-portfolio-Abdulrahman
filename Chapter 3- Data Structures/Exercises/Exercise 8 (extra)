@@ -1,0 +1,9 @@
+#Comparing a list
+
+L1=[1,3,5]
+L2=[1,3,5]
+L3=[1,5,3]
+
+print(L1==L2)
+print(L1==L3)
+print(L1<L3)
