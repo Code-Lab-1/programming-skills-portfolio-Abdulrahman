@@ -1,0 +1,6 @@
+#Slicing a list
+
+val = [10,20,30,40,1,2,3,100,200]
+print(val[2:9:3])
+print(val[::3])
+print(val[::-2]) 
