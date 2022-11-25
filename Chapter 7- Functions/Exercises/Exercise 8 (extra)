@@ -1,4 +1,4 @@
-#To determine the average value of three numbers
+#To determine the cube of a number
 def cube(num):
     return num*num*num
 
