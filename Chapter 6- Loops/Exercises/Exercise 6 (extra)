@@ -1,0 +1,11 @@
+#To determine if the number is a prime number or not
+
+num = int(input("Enter any number :"))
+l = num//2 + 1
+for i in range(2,l):
+    r= num % i
+    if r== 0:
+        print(num," is not a prime number")
+        break
+    else:
+        print(num," is a prime number")

@@ -1,0 +1,13 @@
+txt1=input("Enter the first word: ")
+txt2=input("Enter the second word: ")
+
+print("\nValue of txt1 before swapping: ",txt1)
+print("Value of txt2 before swapping: ",txt2)
+
+temp=txt1
+txt1=txt2
+txt2=temp
+
+print("\nValue of txt1 after swapping: ",txt1)
+print("Value of txt2 after swapping: ",txt2)
+

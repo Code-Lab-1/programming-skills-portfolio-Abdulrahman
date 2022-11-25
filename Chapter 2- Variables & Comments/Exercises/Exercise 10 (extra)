@@ -1,0 +1,8 @@
+message="""
+ Program name : swapping of two number
+ Date : 25/11/2022
+ Logic : by using third variable
+ 
+"""
+
+print(message)

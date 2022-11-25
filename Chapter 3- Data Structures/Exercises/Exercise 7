@@ -1,0 +1,33 @@
+list=["Monaco","Finland","Switzerland","Amsterdam","Bali"]
+
+print("\nOriginal Order:")
+print(list)
+
+print("\nSorted list:")
+print(sorted(list))
+
+print("\nOriginal Order:")
+print(list)
+
+print("\nReversed Order:")
+print(sorted(list,reverse=True))
+
+print("\nOriginal Order:")
+print(list)
+
+print("\nReversed Order:")
+list.reverse()
+print(list)
+
+print("\nReversed Order:")
+list.reverse()
+print(list)
+
+print("\nSorted list:")
+list.sort()
+print(list)
+
+print("\nSorted list:")
+list.sort(reverse=True)
+print(list)
+

@@ -1,0 +1,15 @@
+car="Lexus"
+year=2019
+spec="GCC"
+miles=20000.0
+
+print(car)
+print(year)
+print(spec)
+print(miles)
+
+print(type(car))
+print(type(year))
+print(type(miles))
+
+

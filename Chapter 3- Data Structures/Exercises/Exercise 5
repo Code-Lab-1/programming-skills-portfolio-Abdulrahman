@@ -1,0 +1,21 @@
+list=["Iman Gadzhi","Caesar Augustus","Jordan Peterson","Lakieth Lee"]
+txt_1="Greetings, "+list[0]+" has been cordially invited to dinner at Ritz Carlton."
+txt_2="Greetings, "+list[1]+" has been cordially invited to dinner at Ritz Carlton."
+txt_3="Greetings, "+list[2]+" has been cordially invited to dinner at Ritz Carlton."
+txt_4="Greetings, "+list[3]+" has been cordially invited to dinner at Ritz Carlton."
+
+
+print(txt_1)
+print(txt_2)
+print(txt_3)
+print(txt_4)
+
+
+print("\nUnfortunately "+list[3]+" can't make it to the dinner.")
+list.pop()
+list.insert(3,"Mark Manson")
+txt_3="Greetings, "+list[3]+" has been cordially invited to dinner at Ritz Carlton."
+print(txt_3)
+
+
+

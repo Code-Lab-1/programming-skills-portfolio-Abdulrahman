@@ -1,0 +1,11 @@
+#To determine if the triangle is equilateral or scalene or isosceles
+
+s1 = int(input("Enter the first side: "))
+s2 = int(input("Enter the second side: "))
+s3 = int(input("Enter the third side: "))
+if s1==s2==s3:
+ print("Equilateral")
+elif s1!=s2!=s3!=s1:
+ print("Scalene")
+else:
+ print("Isosceles")

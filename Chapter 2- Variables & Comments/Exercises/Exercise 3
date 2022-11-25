@@ -1,0 +1,11 @@
+name="\tCeasar Augustus\n"
+print(name)
+
+print("Removing Leading whitespaces string: ")
+print(name.lstrip())
+
+print("Removing trailing whitespaces string: ")
+print(name.rstrip())
+
+print("Trimmimg whitesapces string: ")
+print(name.strip())

@@ -1,0 +1,5 @@
+#Deleting multiple elements of a list
+
+items = [10,20,30,40,50,60,70]
+del items[0:3]
+print(items)

@@ -1,0 +1,13 @@
+glossary={"pop()":"This function is used to remove a single element in a list",
+          "append()":"This function is used to add items to the end of the list",
+          "remove()":"This function is used to remove an element in a list with its index",
+          "clear()": "This function is used to remove all the elements in a list",
+          "count()":"This function is used to return the count of the item that the user passed as an argument",
+          "reverse()":"This function is used to reverse the items in the list",
+          "sort()":"This function is used to sort the items of the list. Default is increasing order",
+          "insert()":"This function is used to add elements anywhere in the list",
+          "index()":"This function is used to get the index from the argument given"}
+
+for a,b in glossary.items():
+    print("\n"+a+":"+b)
+

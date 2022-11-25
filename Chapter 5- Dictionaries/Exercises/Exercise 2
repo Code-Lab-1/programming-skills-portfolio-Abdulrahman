@@ -1,0 +1,10 @@
+glossary={"pop()":"This function is used to remove a single element in a list",
+          "append()":"This function is used to add items to the end of the list",
+          "remove()":"This function is used to remove an element in a list with its index",
+          "clear()": "This function is used to remove all the elements in a list"}
+print("\npop(): "+glossary["pop()"])
+print("\nappend(): "+glossary["append()"])
+print("\nremove(): "+glossary["remove()"])
+print("\nclear(): "+glossary["clear()"])
+
+

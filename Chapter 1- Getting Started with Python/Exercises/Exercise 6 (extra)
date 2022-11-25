@@ -1,0 +1,3 @@
+n=int(input("Enter any number: "))
+r=n&n-1
+print(r)

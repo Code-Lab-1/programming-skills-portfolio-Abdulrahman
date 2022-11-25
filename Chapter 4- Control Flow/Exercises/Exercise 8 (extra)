@@ -1,0 +1,9 @@
+#To determine the state of the water
+
+temp = int(input("Enter the temperature of water: "))
+if temp>100:
+ print("Gaseous State")
+elif temp<0:
+ print("Solid State")
+else:
+ print("Liquid State") 

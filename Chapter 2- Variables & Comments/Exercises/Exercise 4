@@ -1,0 +1,3 @@
+fav=17
+txt="My favorite number is"
+print(txt,fav)

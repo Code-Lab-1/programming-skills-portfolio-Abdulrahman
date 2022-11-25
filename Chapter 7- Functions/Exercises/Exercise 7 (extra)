@@ -1,0 +1,10 @@
+#To determine the average value of three numbers
+def avg(num1,num2,num3):
+    av=(num1+num2+num3)/3.0
+    print("\nAverage Value: ", av)
+    
+n1=int(input("Enter the first number: "))
+n2=int(input("Enter the second number: "))
+n3=int(input("Enter the third number: "))
+
+avg(n1,n2,n3)

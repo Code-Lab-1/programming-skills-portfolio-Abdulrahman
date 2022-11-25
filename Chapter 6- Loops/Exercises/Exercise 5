@@ -1,0 +1,17 @@
+sandwich_orders=['Mushroom Sandwich','Pastrami','Egg Sandwich','Pastrami','Chicken Sandwich','Tikka Sandwich','Pastrami']
+finished_sandwiches=[]
+
+print("Unfortunately, we are out of pastrami.")
+
+while 'Pastrami' in sandwich_orders:
+    sandwich_orders.remove('Pastrami')
+
+
+while sandwich_orders:
+    current_order=sandwich_orders.pop()
+    print("Currently working on your "+current_order+" order.")
+    finished_sandwiches.append(current_order)
+
+print("\n")
+for sandwich in finished_sandwiches:
+    print("Your " + sandwich + " order is ready.")

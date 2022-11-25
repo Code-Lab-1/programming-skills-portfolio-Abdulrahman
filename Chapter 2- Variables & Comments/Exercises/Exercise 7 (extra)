@@ -1,0 +1,10 @@
+
+#This is a full line comment
+
+area = length*breadth #This is an inline comment
+
+#Program name: area of circle
+#Date: 20/07/18
+#Language : Python
+#The aboce statements are Multiline comment
+
