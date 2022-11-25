@@ -1,0 +1,3 @@
+#Sorting vlaues in descending order
+d1 = {1: 4000, 3: 8000, 5: 3000, 2: 12000,4:7000}
+print(sorted(d1.values(),reverse=True))
