@@ -1,0 +1,8 @@
+#To enter two numbers and print the largest number
+
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+large = n1
+if (large<n2):
+    large=n2
+print("Largest number is: ", large)

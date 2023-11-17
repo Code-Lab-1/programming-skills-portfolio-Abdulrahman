@@ -1,0 +1,9 @@
+def drawline(symb,times=15):
+    for i in range(times):
+        print(symb,end=' ')
+    print()
+    
+drawline('$',25)
+drawline('@')
+drawline(times=10,symb='*')
+

@@ -1,0 +1,6 @@
+txt="The USB sticks are for £6 each"
+txt_2="The girl has £50, so she can buy"
+print(txt)
+print(txt_2, 50//6, "USB sticks")
+print("The total bill is",8*6,"pounds")
+print("The girl has",50%6,"pounds left")

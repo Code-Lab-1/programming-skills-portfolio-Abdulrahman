@@ -1,0 +1,7 @@
+#To determine the cube of a number
+def cube(num):
+    return num*num*num
+
+n1=int(input("Enter the number: "))
+c=cube(n1)
+print("Cube of the number is",c)

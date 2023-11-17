@@ -1,0 +1,4 @@
+alpha = {'a': 'apple', 'b': 'boy', 'c': 'cat', 'd': 'dog'}
+mytuple = alpha.items()
+for key,value in mytuple:
+    print(key,value)
